@@ -122,46 +122,12 @@ section {
   .jumbotron h1 {
     line-height: .9;
     font-weight: bold;
-    display: inline-block;
-    text-align: center;
-    justify-content: center;
-    border: 15px solid #fff;
-    padding: 30px;
-    font-size: 6rem;
-    opacity: 0;
-    animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
-    animation-delay: .8s; }
-
-    @media (max-width: 767px) and (orientation: portrait) {
-      .jumbotron {
-        min-height: 30px; } }
-    .jumbotron .container {
-      position: relative;
-      z-index: 1; }
-    .jumbotron:before {
-      position: absolute;
-      display: block;
-      content: "";
-      opacity: 0.8;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: #ECECEC;
-      /* fallback for old browsers */
-      background: -webkit-linear-gradient(to right, #333399, #9FD3C7);
-      /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #333399, #9FD3C7);
-      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
-    .jumbotron h1 {
-      line-height: .9;
-      font-weight: bold;
-      display: none;
+      display: inline-block;
       text-align: center;
       justify-content: center;
       border: 15px solid #fff;
-      padding: 10px;
-      font-size: 2rem;
+      padding: 30px;
+      font-size: 9rem;
       opacity: 0;
       animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
       animation-delay: .8s; }
